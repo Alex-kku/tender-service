@@ -1,0 +1,13 @@
+app:
+  name: 'tender'
+  version: '1.0.0'
+
+http:
+  address: 0.0.0.0:8080
+
+log:
+  level: 'debug'
+
+postgres:
+  max_pool_size: 30
+  url: 'postgres://postgres:postgres@localhost:5432/postgres'
